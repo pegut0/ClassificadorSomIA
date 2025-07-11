@@ -13,7 +13,7 @@ Este projeto implementa um dispositivo autônomo capaz de capturar áudio do amb
 ## 🛠️ Componentes Necessários
 
 | Componente | Descrição |
-| :--- | :--- | :--- |
+| :--- | :--- |
 | **ESP32 Dev Kit** | O microcontrolador principal do projeto. |
 | **Microfone I2S INMP441** | Microfone digital de alta qualidade para captura de áudio. |
 | **Display OLED I2C 0.96"** | Display de 128x64 pixels para exibir informações. |
