@@ -12,13 +12,13 @@ Este projeto implementa um dispositivo autônomo capaz de capturar áudio do amb
 
 ## 🛠️ Componentes Necessários
 
-| Componente | Descrição | Imagem de Exemplo |
+| Componente | Descrição |
 | :--- | :--- | :--- |
-| **ESP32 Dev Kit** | O microcontrolador principal do projeto. | ![Imagem de um ESP32](https://i.imgur.com/tG2T2mU.png) |
-| **Microfone I2S INMP441** | Microfone digital de alta qualidade para captura de áudio. | ![Imagem de um microfone INMP441](https://i.imgur.com/bY3gZkL.jpg) |
-| **Display OLED I2C 0.96"** | Display de 128x64 pixels para exibir informações. | ![Imagem de um display OLED 128x64](https://i.imgur.com/uQyY2qA.jpg) |
-| **Cabos Jumper** | Para conectar os componentes. | ![Imagem de cabos jumper](https://i.imgur.com/j5L8g3w.png) |
-| **Protoboard (Opcional)** | Facilita a organização das conexões de GND. | ![Imagem de uma protoboard](https://i.imgur.com/ysL4g2v.png) |
+| **ESP32 Dev Kit** | O microcontrolador principal do projeto. |
+| **Microfone I2S INMP441** | Microfone digital de alta qualidade para captura de áudio. |
+| **Display OLED I2C 0.96"** | Display de 128x64 pixels para exibir informações. |
+| **Cabos Jumper** | Para conectar os componentes. |
+| **Protoboard (Opcional)** | Facilita a organização das conexões de GND. |
 
 ## 🔌 Montagem do Circuito
 
@@ -133,4 +133,4 @@ O firmware do ESP32 captura o áudio e o envia para o servidor.
 7.  O resultado da classificação aparecerá no display (ex: "Cachorro") com o nível de confiança. Se o som não for reconhecido, ele mostrará "Nao reconhecido".
 
 ---
-*Este projeto foi desenvolvido com o auxílio do Gemini. Última atualização: Julho de 2025.*
+*Este projeto foi desenvolvido por Pedro Augusto Ribeiro Fonseca Guedes com o auxílio do Gemini. Última atualização: Julho de 2025.*
